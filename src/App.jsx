@@ -43,13 +43,13 @@ useGSAP(() =>{
 
    <main className='overflow-hidden'>
   
-    <div class="bg relative min-h-screen bg-gradient-to-br from-[#2E0854] via-[#1A3FAF] to-black overflow-hidden">
+    <div class="bg relative h-[100dvh] bg-gradient-to-br from-[#2E0854] via-[#1A3FAF] to-black overflow-hidden">
 
 
   <div class="sparkles absolute inset-0 opacity-10 bg-[radial-gradient(white_1px,transparent_1px)] [background-size:40px_40px]  "></div>
 
 
-  <div ref={formContainer} class="relative w-[90%]  mx-auto z-10 flex  items-center flex-wrap justify-around min-h-screen">
+  <div ref={formContainer} class="relative w-[90%]  mx-auto z-10 flex  items-center flex-wrap md:justify-around min-h-screen">
 
     <div>
       <img src={logo} alt="logo" />
