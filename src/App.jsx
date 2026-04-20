@@ -41,7 +41,7 @@ useGSAP(() =>{
   return (
    <>
 
-   <main className=" overflow-hidden h-[100dvh]">
+   <main className=" overflow-hidden min-h-screen">
 
   <div className="bg relative min-h-screen  flex flex-wrap flex-col gap-10 justify-center bg-gradient-to-br from-[#2E0854] via-[#1A3FAF] to-black overflow-hidden px-4">
 
